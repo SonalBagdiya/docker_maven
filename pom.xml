@@ -76,7 +76,7 @@
                 </executions>
                 <configuration>
                     <imageName>loginout</imageName>
-                    <baseImage>infydp.ad.infosys.com:8082/java:8</baseImage>
+                    <baseImage>java:8</baseImage>
                     <entryPoint>
                         ["java", "-jar", "/opt/${project.build.finalName}-jar-with-dependencies.jar"]
                     </entryPoint>
