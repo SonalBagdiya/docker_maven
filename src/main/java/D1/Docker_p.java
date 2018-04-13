@@ -40,7 +40,7 @@ public class Docker_p {
 		dcp.setCapability(CapabilityType.SUPPORTS_NETWORK_CONNECTION, true);
 		dcp.setCapability("name", "SeleniumLogOutDocker");
 		dcp.setCapability("idleTimeout", 150);
-		driver = new RemoteWebDriver(new URL("http://35.196.143.192:4444/wd/hub"),dcp);
+		driver = new RemoteWebDriver(new URL("http://35.196.40.178:4444/wd/hub"),dcp);
 		//driver=new RemoteWebDriver(new URL("http://10.76.66.42:4444/wd/hub"), dcp);//selenium grid
 		/*System.setProperty("webdriver.ie.driver", "D:\\Drivers\\IEDriverServer_Win32_3.0.0\\IEDriverServer.exe");
 		driver = new InternetExplorerDriver();*/
